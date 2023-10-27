@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "baseUrl": "src",
+        "moduleResolution": "node",
+        "paths": {
+            "@/*":[
+                "src/*"
+            ]
+        },
+        "jsx": "preserve",
+        "lib": [
+            "dom",
+            "ESNext",
+            "DOM.Iterable",
+            "ScriptHost"
+        ]
+    }
+}
